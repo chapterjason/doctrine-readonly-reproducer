@@ -1,0 +1,21 @@
+{
+    "name": "chapterjason/doctrine-readonly-reproducer",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Chapterjason\\DoctrineReadonlyReproducer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "chapterjason",
+            "email": "jason@sourecode.dev"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "doctrine/orm": "^2.13",
+        "symfony/cache": "^6.1"
+    }
+}
